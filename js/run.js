@@ -102,6 +102,7 @@ var backends = {
         var req = {
             source: data.code,
             args: "-unittest",
+            runArgs: "--DRT-testmode=run-main",
             compiler: dmdCompilerBranch
         }
         // only send set attributes
